@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat';
+    color: #2A254B;
+}
+.fixed-container{
+    margin: 0 auto;
+    max-width: 80%;
+}
+.head-box{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.head-hr{
+    background-color: #c4c4c4;
+    height: 1px;
+    width: 97%;
+    margin: 0 auto;
+}
+nav{
+    justify-content: center;
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #726E8D;
+    padding-right: 15px;
+    font-size: 16px;
+}
+/*----------------------------*/
+main{
+    background-color: #F9F9F9;
+}
+h1{
+    padding-top: 70px;
+    margin-bottom: 70px;
+    font-weight: normal;
+    color: #2A254B;
+    font-size: 36px;
+}
+.title-box{
+    display: flex;
+    justify-content: space-between;
+}
+.title-box2{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-size: 14px;
+    color: #2A254B;
+}
+.cart-hr{
+    background-color: #EBE8F4;
+    height: 1px;
+    margin-top: 15px;
+}
+/*----------------------------*/
+.product-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.product-kol{
+    font-size: 16px;
+    color: #2A254B;
+}
+.product-box2{
+    display: flex;
+    width: 37%;
+    justify-content: space-between;
+    align-items: center;
+}
+.product{
+    display: flex;
+}
+.description-product{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.product-title{
+    font-size: 20px;
+    color: #2A254B;
+    padding-bottom: 15px;
+}
+.product-text{
+    font-size: 14px;
+    color: #2A254B;
+    padding-bottom: 15px;
+}
+.product-price{
+    font-size: 18px;
+    color: #2A254B;
+}
+/*----------------------------*/
+.price-box{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.subtitle{
+    font-size: 20px;
+    color: #4E4D93;
+    padding-right: 10px;
+}
+.price{
+    font-size: 24px;
+    color: #2A254B;
+}
+.price-text{
+    font-size: 14px;
+    color: #4E4D93;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.price-button{
+    width: 172px;
+    height: 55px;
+    background-color: #2A254B;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+/*-------------------------------*/
+footer{
+    background-color: #2A254B;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.title-link{
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.foot-link{
+    display: flex;
+    color: #fff;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.link-box{
+    display: flex;
+    width: 47%;
+    justify-content: space-between;
+}
+.foot-box{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-form-title{
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.foot-input{
+    background-color: #FFFFFF26;
+    color: white;
+    border: none;
+    padding-left: 20px;
+    width: 500px;
+    height: 56px;
+    font-size: 16px;
+}
+.foot-button{
+    color: #2A254B;
+    border: none;
+    width: 118px;
+    height: 56px;
+    background-color: #fff;
+    font-size: 16px;
+}
+.foot-hr{
+    background-color: #4E4D93;
+    height: 1px;
+    margin-top: 20px;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.copyright{
+    color: #F9F9F9;
+    font-size: 13px;
+}
+.icon-box{
+    display: flex;
+}
+.foot-icon{
+    padding-left: 5px;
+}
+/*------------------*/
+.head-icon{
+    order: 0;
+}
+.wrapper{
+    flex-grow: 1;
+}
+.open{
+    display: flex !important;
+}
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 25px;
+    height: 14px;
+}
+.burger span{
+    height: 2px;
+    width: 70%;
+    transform: scale(1);
+    background-color: #2A254B;
+}
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    background-color: #2A254B;
+    transition: all 0.3s ease 0s;
+}
+.burger::before { top: 0 }
+.burger::after { bottom: 0 }
+/* Добавляем класс active для анимации иконки бургера */
+.burger.active span { transform: scale(0) }
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+@media (max-width: 1000px) and (min-width:390px) {
+    .burger { display: flex;margin-right: 20px;}
+    .nav{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0; bottom: 0; left: 0; right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 200px 10px;
+        background-color: rgb(255, 255, 255);
+        animation: burgerAnimation 0.4s;
+    }
+    .nav a{
+        flex-direction: column;
+    }
+    a{
+        padding-bottom: 15px;
+    }
+    /*--------------------*/
+    .head-icon{
+        order: 1;
+        opacity: 0;
+        position: absolute;
+    }
+    .head-logo{
+        order: 0;
+    }
+    .head-hr{
+        opacity: 0;
+    }
+    /*----------------------------*/
+    .title-box{
+        display: flex;
+        justify-content: space-between;
+        opacity: 0;
+        position: absolute;
+    }
+    .hr1{
+        opacity: 0;
+        position: absolute;
+    }
+    .product-box2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        opacity: 0;
+        position: absolute;
+    }
+    /*-------------------------------*/
+    .foot-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .link-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .foot-form{
+        width: 100%;
+    }
+    .links{
+        width: 45%;
+        margin-top: 20px;
+    }
+    .foot-hr{
+        margin-top: 15px;
+    }
+    .icon-box{
+        opacity: 0;
+        position: absolute;
+    }
+    .copyright{
+        color: #F9F9F9;
+        font-size: 13px;
+        margin: 0 auto;
+    }
+    .foot-input{
+        background-color: #FFFFFF26;
+        color: white;
+        border: none;
+        padding-left: 20px;
+        width: 73%;
+        height: 56px;
+        font-size: 16px;
+    }
+    .foot-button{
+        color: #2A254B;
+        border: none;
+        width: 20%;
+        height: 56px;
+        background-color: #fff;
+        font-size: 16px;
+    }
+    .form{
+        display: flex;
+    }
+}
+@keyframes burgerAnimation {
+    from {opacity: 0}
+    to {opacity: 1}
+}

@@ -1,0 +1,488 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat';
+    color: #2A254B;
+}
+.fixed-container{
+    margin: 0 auto;
+    max-width: 80%;
+}
+.head-box{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+.head-hr{
+    background-color: #c4c4c4;
+    height: 1px;
+    width: 97%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #726E8D;
+    padding-right: 15px;
+    font-size: 16px;
+}
+/*--------------------------*/
+.mini-header{
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    height: 40px;
+    background-color: #2A254B;
+    align-items: center;
+}
+.mini-icon{
+    width: 30px;
+    height: 30px;
+}
+.mini-text{
+    color: #fff;
+    font-size: 14px;
+}
+.head-box1{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    height: 65px;
+    align-items: center;
+}
+
+.nav-box{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+.nav-text{
+    font-size: 16px;
+    color: #726E8D;
+    padding-right: 15px;
+}
+.head-icon{
+    padding-right: 12px;
+}
+nav{
+    background-color: #F9F9F9;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head-link{
+    padding-right: 40px;
+}
+/*----------------------------*/
+h1{
+    color: #2A254B;
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about-box{
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    width: 47%;
+}
+.about-container{
+    padding: 100px;
+}
+.about-title{
+    font-size: 28px;
+    color: #2A254B;
+    padding-bottom: 40px;
+}
+.about-text{
+    font-size: 18px;
+    color: #505977;
+    line-height: 1.5;
+}
+.about-button{
+    width: 150px;
+    height: 55px;
+    border: none;
+    background-color: #F9F9F9;
+    font-size: 16px;
+    color: #2A254B;
+    margin-top: 280px;
+}
+.about-img{
+    width: 50%;
+}
+/*----------------------------*/
+.title{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 70px;
+}
+.plus-box{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.plus{
+    width: 21%;
+}
+.plus-title{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.plus-text{
+    font-size: 16px;
+    line-height: 1.5;
+}
+/*----------------------------*/
+.form{
+    background-image: url(./../img/sign-up.jpg);
+    height: 444px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-title{
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+}
+.form-text{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.first-input{
+    background-color: #F9F9F9;
+    color: #ffffff6e;
+    border: none;
+    padding-left: 20px;
+    width: 354px;
+    height: 56px;
+    font-size: 16px;
+}
+.first-button{
+    background-color: #2A254B;
+    border: none;
+    width: 118px;
+    height: 56px;
+    color: #fff;
+    font-size: 16px;
+}
+label{
+    display: flex;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 18px;
+}
+.radio{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/*-------------------------------*/
+footer{
+    background-color: #2A254B;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.title-link{
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.foot-link{
+    display: flex;
+    color: #fff;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.link-box{
+    display: flex;
+    width: 47%;
+    justify-content: space-between;
+}
+.foot-box{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-form-title{
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.foot-input{
+    background-color: #FFFFFF26;
+    color: white;
+    border: none;
+    padding-left: 20px;
+    width: 500px;
+    height: 56px;
+    font-size: 16px;
+}
+.foot-button{
+    color: #2A254B;
+    border: none;
+    width: 118px;
+    height: 56px;
+    background-color: #fff;
+    font-size: 16px;
+}
+.foot-hr{
+    background-color: #4E4D93;
+    height: 1px;
+    margin-top: 20px;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.copyright{
+    color: #F9F9F9;
+    font-size: 13px;
+}
+.icon-box{
+    display: flex;
+}
+.foot-icon{
+    padding-left: 5px;
+}
+/*-------------------------*/
+.wrapper{
+    flex-grow: 1;
+}
+.open{
+    display: flex !important;
+}
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 25px;
+    height: 14px;
+}
+.burger span{
+    height: 2px;
+    width: 70%;
+    transform: scale(1);
+    background-color: #2A254B;
+}
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    background-color: #2A254B;
+    transition: all 0.3s ease 0s;
+}
+.burger::before { top: 0 }
+.burger::after { bottom: 0 }
+/* Добавляем класс active для анимации иконки бургера */
+.burger.active span { transform: scale(0) }
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+@media (max-width: 1000px) and (min-width:390px) {
+    .burger { display: flex;margin-right: 20px;}
+    .nav{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0; bottom: 0; left: 0; right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 200px 10px;
+        background-color: rgb(255, 255, 255);
+        animation: burgerAnimation 0.4s;
+    }
+    .nav p{
+        flex-direction: column;
+    }
+    p{
+        padding-bottom: 15px;
+    }
+    /*----------------------------*/
+    h1{
+        color: #2A254B;
+        text-align: left;
+        font-size: 36px;
+        font-weight: normal;
+        margin-top: 50px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+    }
+    .about-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .about{
+        width: 100%;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .about-container{
+        padding: 10px;
+    }
+    .about-button{
+        width: 100%;
+        height: 55px;
+        border: none;
+        background-color: #F9F9F9;
+        font-size: 16px;
+        color: #2A254B;
+        margin-top: 50px;
+    }
+    /*--------------------------*/
+    .plus-box{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        flex-wrap: wrap;
+    }
+    .plus{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    /*----------------------------*/
+    .form{
+        background-image: url(./../img/sign-up.jpg);
+        height: 444px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .form-title{
+        text-align: left;
+        font-size: 32px;
+        color: #fff;
+        padding-left: 20px;
+    }
+    .form-text{
+        text-align: left;
+        font-size: 18px;
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+    }
+    .first-input{
+        background-color: #F9F9F9;
+        color: #a1a1a1;
+        border: none;
+        padding-left: 20px;
+        width: 354px;
+        height: 56px;
+        font-size: 16px;
+    }
+    .first-button{
+        background-color: #2A254B;
+        border: none;
+        width: 118px;
+        height: 56px;
+        color: #fff;
+        font-size: 16px;
+    }
+    label{
+        display: flex;
+        padding-left: 30px;
+        color: #fff;
+        font-size: 14px;
+    }
+    .radio{
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+        margin-top: 2px;
+        margin-bottom: 30px;
+    }
+    /*-------------------------------*/
+    .foot-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .link-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .foot-form{
+        width: 100%;
+    }
+    .links{
+        width: 45%;
+        margin-top: 20px;
+    }
+    .foot-hr{
+        margin-top: 15px;
+    }
+    .icon-box{
+        opacity: 0;
+        position: absolute;
+    }
+    .copyright{
+        color: #F9F9F9;
+        font-size: 13px;
+        margin: 0 auto;
+    }
+    .foot-input{
+        background-color: #FFFFFF26;
+        color: white;
+        border: none;
+        padding-left: 20px;
+        width: 80%;
+        height: 56px;
+        font-size: 16px;
+    }
+    .foot-button{
+        color: #2A254B;
+        border: none;
+        width: 20%;
+        height: 56px;
+        background-color: #fff;
+        font-size: 16px;
+    }
+}
+@keyframes burgerAnimation {
+    from {opacity: 0}
+    to {opacity: 1}
+}
